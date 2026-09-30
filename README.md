@@ -4,7 +4,7 @@ A modern, responsive redesign concept for the Cairns Badminton Club website.
 
 ## Preview
 
-Public concept: https://cairns-badminton-concept.shivam-cool682.chatgpt.site
+Public concept: https://concept-cairns-badminton-site.shivam-cool682.chatgpt.site
 
 ## Files
 
