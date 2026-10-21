@@ -6,10 +6,15 @@
   const money = cents => new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(cents / 100);
   const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[char]));
   const bagDialog = document.querySelector('.bag-dialog');
+  const stringingFee = 1000;
+  const validTension = (slug, value) => Number.isInteger(value) && value >= 20 && value <= (slug === 'yonex-arcsaber-11-tour' ? 27 : 28);
+  const lineKey = item => `${item.slug}:${item.tension || 'unstrung'}`;
+  const unitPrice = item => bySlug.get(item.slug).priceCents + (item.tension ? stringingFee : 0);
+  const stringingLabel = item => item.tension ? `Strung at ${item.tension} lbs (+A$10.00 per racquet)` : 'No stringing service';
   let bag = [];
   try {
     const saved = JSON.parse(localStorage.getItem('rally-bag-v1') || '[]');
-    if (Array.isArray(saved)) bag = saved.filter(i => bySlug.has(i.slug) && Number.isInteger(i.qty) && i.qty > 0).map(i => ({ slug:i.slug, qty:Math.min(i.qty, 99) }));
+    if (Array.isArray(saved)) bag = saved.filter(i => bySlug.has(i.slug) && Number.isInteger(i.qty) && i.qty > 0).map(i => ({ slug:i.slug, qty:Math.min(i.qty, 99), tension:validTension(i.slug, i.tension) ? i.tension : null }));
   } catch { /* An empty bag remains usable when storage is unavailable. */ }
   let toastTimer;
   function toast(message) {
@@ -35,17 +40,19 @@
     }
     items.innerHTML = bag.map(i => {
       const p = bySlug.get(i.slug);
-      return `<article class="bag-item"><a href="${base}products/${p.slug}/"><img src="${base}${escape(p.images[0])}" alt="${escape(p.name)}" width="96" height="110"></a><div><span class="brand-label">${escape(p.brand)}</span><h3><a href="${base}products/${p.slug}/">${escape(p.name)}</a></h3><strong>${money(p.priceCents)}</strong><div class="bag-quantity"><button data-change="${p.slug}" data-delta="-1" aria-label="Decrease ${escape(p.name)} quantity">−</button><span>${i.qty}</span><button data-change="${p.slug}" data-delta="1" aria-label="Increase ${escape(p.name)} quantity">+</button><button class="remove-item" data-remove="${p.slug}">Remove</button></div></div></article>`;
+      const key = lineKey(i);
+      return `<article class="bag-item"><a href="${base}products/${p.slug}/"><img src="${base}${escape(p.images[0])}" alt="${escape(p.name)}" width="96" height="110"></a><div><span class="brand-label">${escape(p.brand)}</span><h3><a href="${base}products/${p.slug}/">${escape(p.name)}</a></h3><p class="bag-stringing">${stringingLabel(i)}</p><strong>${money(unitPrice(i))} each</strong><div class="bag-quantity"><button data-change="${key}" data-delta="-1" aria-label="Decrease ${escape(p.name)} ${i.tension || 'unstrung'} quantity">−</button><span>${i.qty}</span><button data-change="${key}" data-delta="1" aria-label="Increase ${escape(p.name)} ${i.tension || 'unstrung'} quantity">+</button><button class="remove-item" data-remove="${key}" aria-label="Remove ${escape(p.name)} ${i.tension || 'unstrung'}">Remove</button></div></div></article>`;
     }).join('');
-    const total = bag.reduce((sum, i) => sum + i.qty * bySlug.get(i.slug).priceCents, 0);
-    summary.innerHTML = `<div class="bag-subtotal"><span>Racquet subtotal</span><strong>${money(total)} <small>AUD</small></strong></div><p class="bag-disclaimer">Availability and delivery are confirmed before payment. Saving an enquiry does not place an order.</p><button class="button button-dark" data-save-enquiry>Save enquiry <span>↓</span></button><button class="copy-enquiry" data-copy-enquiry>Copy enquiry</button>`;
+    const total = bag.reduce((sum, i) => sum + i.qty * unitPrice(i), 0);
+    const fees = bag.reduce((sum, i) => sum + (i.tension ? i.qty * stringingFee : 0), 0);
+    summary.innerHTML = `<div class="bag-subtotal"><span>Subtotal</span><strong>${money(total)} <small>AUD</small></strong></div>${fees ? `<p class="bag-stringing">Includes ${money(fees)} stringing</p>` : ''}<p class="bag-disclaimer">Availability and delivery are confirmed before payment. Saving an enquiry does not place an order.</p><button class="button button-dark" data-save-enquiry>Save enquiry <span>↓</span></button><button class="copy-enquiry" data-copy-enquiry>Copy enquiry</button>`;
   }
   function enquiryText() {
-    const total = bag.reduce((sum, i) => sum + i.qty * bySlug.get(i.slug).priceCents, 0);
+    const total = bag.reduce((sum, i) => sum + i.qty * unitPrice(i), 0);
     return 'RALLY RACQUETS — AVAILABILITY ENQUIRY\n\n'+bag.map(i => {
       const p = bySlug.get(i.slug);
-      return `${i.qty} × ${p.brand} ${p.name} — ${money(p.priceCents)} each\nColour: ${p.colour}\nWeight/grip: ${p.weight}`;
-    }).join('\n\n')+`\n\nRacquet subtotal: ${money(total)} AUD\n\nPlease confirm stock, weight/grip, stringing, delivery costs and payment arrangements.\nThis is an enquiry, not a placed or paid order.\n\nMy name:\nMy contact details:\nDelivery postcode:\n`;
+      return `${i.qty} × ${p.brand} ${p.name} — ${money(unitPrice(i))} each\nRacquet: ${money(p.priceCents)} each\nStringing: ${stringingLabel(i)}\nColour: ${p.colour}\nWeight/grip: ${p.weight}`;
+    }).join('\n\n')+`\n\nSubtotal including selected stringing: ${money(total)} AUD\n\nPlease confirm stock, weight/grip, stringing, delivery costs and payment arrangements.\nThis is an enquiry, not a placed or paid order.\n\nMy name:\nMy contact details:\nDelivery postcode:\n`;
   }
   document.querySelectorAll('.bag-toggle').forEach(b => b.addEventListener('click', () => { renderBag(); bagDialog.showModal(); }));
   document.querySelector('[data-close-bag]').addEventListener('click', () => bagDialog.close());
@@ -53,13 +60,13 @@
     if (event.target === bagDialog) bagDialog.close();
     const change = event.target.closest('[data-change]');
     if (change) {
-      const item = bag.find(i => i.slug === change.dataset.change);
+      const item = bag.find(i => lineKey(i) === change.dataset.change);
       item.qty = Math.max(0, Math.min(99, item.qty + Number(change.dataset.delta)));
       bag = bag.filter(i => i.qty > 0);
       saveBag();
     }
     const remove = event.target.closest('[data-remove]');
-    if (remove) { bag = bag.filter(i => i.slug !== remove.dataset.remove); saveBag(); }
+    if (remove) { bag = bag.filter(i => lineKey(i) !== remove.dataset.remove); saveBag(); }
     if (event.target.closest('[data-save-enquiry]')) {
       const url = URL.createObjectURL(new Blob([enquiryText()], { type:'text/plain;charset=utf-8' }));
       const a = document.createElement('a'); a.href = url; a.download = 'rally-racquets-enquiry.txt'; a.click();
@@ -79,14 +86,22 @@
   const currentSlug = document.querySelector('[data-current-product]')?.dataset.currentProduct;
   if (currentSlug) {
     const quantity = document.querySelector('#product-quantity');
+    const tensionSelect = document.querySelector('#string-tension');
+    const selectedTension = () => validTension(currentSlug, Number(tensionSelect.value)) ? Number(tensionSelect.value) : null;
+    tensionSelect.addEventListener('change', () => {
+      const tension = selectedTension();
+      document.querySelector('#selected-price').textContent = `A${money(bySlug.get(currentSlug).priceCents + (tension ? stringingFee : 0))}`;
+      document.querySelector('#stringing-price-note').textContent = tension ? `Includes A$10.00 stringing at ${tension} lbs, per racquet.` : 'Stringing is optional: A$10.00 per racquet.';
+    });
     const clamp = () => { quantity.value = Math.min(99, Math.max(1, parseInt(quantity.value, 10) || 1)); return Number(quantity.value); };
     quantity.addEventListener('change', clamp);
     document.querySelector('[data-product-minus]').addEventListener('click', () => { quantity.value = clamp() - 1; clamp(); });
     document.querySelector('[data-product-plus]').addEventListener('click', () => { quantity.value = clamp() + 1; clamp(); });
     document.querySelector('[data-add]').addEventListener('click', () => {
-      const existing = bag.find(i => i.slug === currentSlug);
+      const tension = selectedTension();
+      const existing = bag.find(i => i.slug === currentSlug && i.tension === tension);
       if (existing) existing.qty = Math.min(99, existing.qty + clamp());
-      else bag.push({ slug:currentSlug, qty:clamp() });
+      else bag.push({ slug:currentSlug, qty:clamp(), tension });
       saveBag(); bagDialog.showModal();
     });
     const mainPhoto = document.querySelector('#main-product-photo');

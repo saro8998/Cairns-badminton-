@@ -2,7 +2,7 @@
 
 A responsive badminton racquet storefront with 28 supplier listings: 5 Yonex and 23 Li-Ning. Each product has its own static URL, an image gallery, an original description and sourced specifications.
 
-The store includes brand and playing-style filters, model search, price sorting, image zoom, and a persistent shopping bag. Customers can save or copy an availability enquiry. Payments and order transmission are not connected; the site does not claim to accept paid orders.
+The store includes brand and playing-style filters, model search, price sorting, image zoom, and a persistent shopping bag. Customers can select string tension on every product page, with optional stringing at A$10 per racquet. Different tensions remain separate bag items, and saved/copied enquiries include each tension and the stringing fee. Customers can save or copy an availability enquiry. Payments and order transmission are not connected; the site does not claim to accept paid orders.
 
 ## Pricing
 
