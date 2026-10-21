@@ -1,0 +1,53 @@
+{
+  "yonex-astrox-77-tour": {
+    "productSource": "https://prokicksports.com/products/yonex-astrox-77-tour-4u5-strung-badminton-racquet-high-orange",
+    "imageSources": [
+      "https://cdn.shopify.com/s/files/1/0099/8224/6993/products/YON-AX77-TOUR-1.jpg?v=1721468522",
+      "https://cdn.shopify.com/s/files/1/0099/8224/6993/products/YON-AX77-TOUR-3.jpg?v=1721468522",
+      "https://cdn.shopify.com/s/files/1/0099/8224/6993/products/YON-AX77-TOUR-2.jpg?v=1721468522"
+    ],
+    "images": [
+      "assets/products/yonex-astrox-77-tour-1.webp",
+      "assets/products/yonex-astrox-77-tour-2.webp",
+      "assets/products/yonex-astrox-77-tour-3.webp"
+    ]
+  },
+  "yonex-astrox-100zz-va": {
+    "productSource": "https://badmintonclick.com.au/products/yonex-astrox-100zz-va-83-grams-limited-edition-badminton-racquet",
+    "imageSources": [
+      "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA.png?v=1758263396",
+      "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA_2.webp?v=1758263396",
+      "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA_3.webp?v=1758258289",
+      "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA_4.webp?v=1758263396"
+    ],
+    "images": [
+      "assets/products/yonex-astrox-100zz-va-1.webp",
+      "assets/products/yonex-astrox-100zz-va-2.webp",
+      "assets/products/yonex-astrox-100zz-va-3.webp",
+      "assets/products/yonex-astrox-100zz-va-4.webp"
+    ]
+  },
+  "yonex-nanoflare-nextage": {
+    "productSource": "https://badmintonmart.com.au/products/yonex-nanoflare-nextage-badminton-racquet-4ug5-dark-grey",
+    "imageSources": [
+      "https://cdn.shopify.com/s/files/1/0676/1395/0101/files/all_nf-nt_144-1_1.webp?v=1758880244",
+      "https://cdn.shopify.com/s/files/1/0676/1395/0101/files/IMG-7486_a6e7747e-53b2-4b25-892b-91b996a0807a.webp?v=1758880244"
+    ],
+    "images": [
+      "assets/products/yonex-nanoflare-nextage-1.webp",
+      "assets/products/yonex-nanoflare-nextage-2.webp"
+    ]
+  },
+  "yonex-astrox-88d-tour": {
+    "images": [],
+    "imageSources": [
+      "https://www.yonex.com/media/catalog/product/3/a/3ax88d-t_076-1_02.png"
+    ]
+  },
+  "yonex-arcsaber-11-tour": {
+    "images": [],
+    "imageSources": [
+      "https://www.yonex.com/media/catalog/product/a/r/arc11-t.png"
+    ]
+  }
+}

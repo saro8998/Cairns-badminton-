@@ -1,0 +1,30 @@
+{
+  "yonex-astrox-88d-tour": {
+    "images": [
+      "assets/products/yonex-astrox-88d-tour-1.webp",
+      "assets/products/yonex-astrox-88d-tour-2.webp",
+      "assets/products/yonex-astrox-88d-tour-3.webp"
+    ],
+    "imageSources": [
+      "https://cdn.shopify.com/s/files/1/0020/9407/1890/files/e36d36cb-c847-4b08-89b9-ff5ffdeb2f40.jpg?v=1731958928",
+      "https://cdn.shopify.com/s/files/1/0020/9407/1890/files/YX-Astrox-88D-Tour-Head.jpg?v=1731958930",
+      "https://cdn.shopify.com/s/files/1/0020/9407/1890/files/e4088f9e-249c-4776-ac2b-0e4e692c1ecf.jpg?v=1731958934"
+    ],
+    "productSource": "https://badmintonhq.co.uk/products/yonex-astrox-88d-tour-4u-gen-3-2024-badminton-racket-black-silver"
+  },
+  "yonex-arcsaber-11-tour": {
+    "images": [
+      "assets/products/yonex-arcsaber-11-tour-1.webp",
+      "assets/products/yonex-arcsaber-11-tour-2.webp",
+      "assets/products/yonex-arcsaber-11-tour-3.webp",
+      "assets/products/yonex-arcsaber-11-tour-4.webp"
+    ],
+    "imageSources": [
+      "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/arcsaber-11-tour-1.png?v=1700036092",
+      "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/arcsaber-11-tour-5.jpg?v=1700036092",
+      "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/arcsaber-11-tour-3.jpg?v=1700036092",
+      "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/arcsaber-11-tour-2.jpg?v=1700036092"
+    ],
+    "productSource": "https://www.nydhi.com/products/yonex-arcsaber-11-tour-badminton-racket-unstrung-grayish-pearl"
+  }
+}

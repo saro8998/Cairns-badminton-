@@ -1,0 +1,936 @@
+{
+  "pricing": {
+    "currency": "AUD",
+    "vndPerAud": 18162.4,
+    "markupAud": 60,
+    "rateDate": "2026-10-21",
+    "rateSource": "https://www.xe.com/en-au/currencyconverter/convert/?Amount=1&From=AUD&To=VND",
+    "rateSourceTimestamp": "2026-10-21T06:51:00Z",
+    "method": "Round dealerVnd / vndPerAud to AUD cents, then add 6000 cents. This is a markup before shipping, payment fees, import costs and taxes."
+  },
+  "products": [
+    {
+      "slug": "yonex-astrox-77-tour",
+      "brand": "Yonex",
+      "name": "Astrox 77 Tour",
+      "dealerVnd": 2130000,
+      "retailVnd": 2939000,
+      "style": "Power",
+      "series": "Astrox",
+      "colour": "High Orange",
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Medium",
+      "summary": "Accessible attacking power, with a medium flex for a smoother swing.",
+      "description": "Bring more depth to your clears and more confidence to your attack. The Astrox 77 Tour combines a medium-flex shaft with Yonex’s Rotational Generator System to help you move from one shot to the next. A strong choice for players who like an attacking racquet with a more forgiving feel than an extra-stiff frame.",
+      "specs": {
+        "Flex": "Medium",
+        "Frame": "HM Graphite, LIGHT Feel CARBON NEO, Tungsten",
+        "Shaft": "HM Graphite, NANOMESH NEO",
+        "Length": "10 mm longer",
+        "Model code": "AX77-T"
+      },
+      "source": "https://www.yonex.com/badminton/racquets/astrox/astrox-77-tour",
+      "imageProductSource": "https://prokicksports.com/products/yonex-astrox-77-tour-4u5-strung-badminton-racquet-high-orange",
+      "images": [
+        "assets/products/yonex-astrox-77-tour-1.webp",
+        "assets/products/yonex-astrox-77-tour-2.webp",
+        "assets/products/yonex-astrox-77-tour-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0099/8224/6993/products/YON-AX77-TOUR-1.jpg?v=1721468522",
+        "https://cdn.shopify.com/s/files/1/0099/8224/6993/products/YON-AX77-TOUR-3.jpg?v=1721468522",
+        "https://cdn.shopify.com/s/files/1/0099/8224/6993/products/YON-AX77-TOUR-2.jpg?v=1721468522"
+      ],
+      "imageNote": "",
+      "priceCents": 17728
+    },
+    {
+      "slug": "yonex-astrox-88d-tour",
+      "brand": "Yonex",
+      "name": "Astrox 88D Tour",
+      "dealerVnd": 2230000,
+      "retailVnd": 3099000,
+      "style": "Power",
+      "series": "Astrox",
+      "colour": "Black / Silver",
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Stiff",
+      "summary": "An attacking doubles racquet for confident play from the back court.",
+      "description": "Build your doubles attack from the rear court. The Astrox 88D Tour pairs a stiff shaft with a frame designed around powerful, decisive shots. Its 2G-Namd FLEX FORCE shaft material supports responsive recovery between swings, making it a natural option for players who enjoy driving the rally with clears and steep attacking shots.",
+      "specs": {
+        "Flex": "Stiff",
+        "Frame": "HM Graphite, CSR, Tungsten",
+        "Shaft": "HM Graphite, 2G-Namd FLEX FORCE",
+        "Length": "10 mm longer",
+        "Model code": "3AX88D-T"
+      },
+      "source": "https://www.yonex.com/badminton/racquets/astrox/3ax88d-t",
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0020/9407/1890/files/e36d36cb-c847-4b08-89b9-ff5ffdeb2f40.jpg?v=1731958928",
+        "https://cdn.shopify.com/s/files/1/0020/9407/1890/files/YX-Astrox-88D-Tour-Head.jpg?v=1731958930",
+        "https://cdn.shopify.com/s/files/1/0020/9407/1890/files/e4088f9e-249c-4776-ac2b-0e4e692c1ecf.jpg?v=1731958934"
+      ],
+      "imageNote": "",
+      "imageProductSource": "https://badmintonhq.co.uk/products/yonex-astrox-88d-tour-4u-gen-3-2024-badminton-racket-black-silver",
+      "images": [
+        "assets/products/yonex-astrox-88d-tour-1.webp",
+        "assets/products/yonex-astrox-88d-tour-2.webp",
+        "assets/products/yonex-astrox-88d-tour-3.webp"
+      ],
+      "priceCents": 18278
+    },
+    {
+      "slug": "yonex-arcsaber-11-tour",
+      "brand": "Yonex",
+      "name": "Arcsaber 11 Tour",
+      "dealerVnd": 2430000,
+      "retailVnd": 3349000,
+      "style": "Control",
+      "series": "Arcsaber",
+      "colour": "Grayish Pearl",
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Stiff",
+      "summary": "Precise placement and a connected feel for an all-court game.",
+      "description": "Take the rally on your terms. The Arcsaber 11 Tour is built for controlled shuttle placement, with a POCKETING BOOSTER frame and a stable T-ANCHOR joint. Its stiff shaft offers a direct response for players who value accuracy at the net, through flat exchanges and from the back court.",
+      "specs": {
+        "Flex": "Stiff",
+        "Frame": "HM Graphite, POCKETING BOOSTER",
+        "Shaft": "HM Graphite, SUPER HMG",
+        "Joint": "Built-in T-Joint, T-ANCHOR",
+        "Length": "10 mm longer",
+        "Model code": "ARC11-T"
+      },
+      "source": "https://www.yonex.com/badminton/racquets/arcsaber/arcsaber-11-tour",
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/arcsaber-11-tour-1.png?v=1700036092",
+        "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/arcsaber-11-tour-5.jpg?v=1700036092",
+        "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/arcsaber-11-tour-3.jpg?v=1700036092",
+        "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/arcsaber-11-tour-2.jpg?v=1700036092"
+      ],
+      "imageNote": "",
+      "imageProductSource": "https://www.nydhi.com/products/yonex-arcsaber-11-tour-badminton-racket-unstrung-grayish-pearl",
+      "images": [
+        "assets/products/yonex-arcsaber-11-tour-1.webp",
+        "assets/products/yonex-arcsaber-11-tour-2.webp",
+        "assets/products/yonex-arcsaber-11-tour-3.webp",
+        "assets/products/yonex-arcsaber-11-tour-4.webp"
+      ],
+      "priceCents": 19379
+    },
+    {
+      "slug": "yonex-nanoflare-nextage",
+      "brand": "Yonex",
+      "name": "Nanoflare Nextage",
+      "dealerVnd": 1550000,
+      "retailVnd": 2049000,
+      "style": "Speed",
+      "series": "Nanoflare",
+      "colour": "Dark Gray",
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Medium",
+      "summary": "Fast handling and a comfortable response for lively exchanges.",
+      "description": "Stay ready for the next fast exchange. The Nanoflare Nextage brings the quick-handling character of the Nanoflare family together with a medium-flex shaft. It suits players who enjoy drives, defensive reactions and a light, responsive feel through the swing.",
+      "specs": {
+        "Flex": "Medium",
+        "Frame": "HT Graphite, Nanocell NEO, EX-HMG, Solid Titanium",
+        "Shaft": "Graphite",
+        "Model code": "NF-NT"
+      },
+      "source": "https://yonex-fareast.com/product/nanoflare-nextage/",
+      "imageProductSource": "https://badmintonmart.com.au/products/yonex-nanoflare-nextage-badminton-racquet-4ug5-dark-grey",
+      "images": [
+        "assets/products/yonex-nanoflare-nextage-1.webp",
+        "assets/products/yonex-nanoflare-nextage-2.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0676/1395/0101/files/all_nf-nt_144-1_1.webp?v=1758880244",
+        "https://cdn.shopify.com/s/files/1/0676/1395/0101/files/IMG-7486_a6e7747e-53b2-4b25-892b-91b996a0807a.webp?v=1758880244"
+      ],
+      "imageNote": "",
+      "priceCents": 14534
+    },
+    {
+      "slug": "yonex-astrox-100zz-va",
+      "brand": "Yonex",
+      "name": "Astrox 100ZZ VA",
+      "dealerVnd": 5300000,
+      "retailVnd": 5599000,
+      "style": "Power",
+      "series": "Astrox",
+      "colour": "Grayish Beige",
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Extra stiff",
+      "summary": "The Viktor Axelsen edition for players with a committed attacking swing.",
+      "description": "A distinctive finish for a demanding attacking frame. The Astrox 100VA ZZ combines an extra-stiff shaft with Yonex’s Namd graphite construction and a compact hitting feel. Best suited to experienced players who generate their own racquet speed and want a crisp response when they commit to the attack.",
+      "specs": {
+        "Flex": "Extra stiff",
+        "Frame": "HM Graphite, Namd, Tungsten, Black Micro Core, Nanometric",
+        "Shaft": "HM Graphite, Namd",
+        "Length": "10 mm longer",
+        "Model code": "AX100VAZ",
+        "Made in": "Japan"
+      },
+      "source": "https://www.yonex.com/astrox-100va-zz",
+      "imageProductSource": "https://badmintonclick.com.au/products/yonex-astrox-100zz-va-83-grams-limited-edition-badminton-racquet",
+      "images": [
+        "assets/products/yonex-astrox-100zz-va-1.webp",
+        "assets/products/yonex-astrox-100zz-va-2.webp",
+        "assets/products/yonex-astrox-100zz-va-3.webp",
+        "assets/products/yonex-astrox-100zz-va-4.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA.png?v=1758263396",
+        "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA_2.webp?v=1758263396",
+        "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA_3.webp?v=1758258289",
+        "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA_4.webp?v=1758263396"
+      ],
+      "imageNote": "",
+      "priceCents": 35181
+    },
+    {
+      "slug": "lining-halbertec-motor-white",
+      "brand": "Li-Ning",
+      "name": "Halbertec Motor White",
+      "dealerVnd": 920000,
+      "retailVnd": 1150000,
+      "series": "Halbertec",
+      "style": "Control",
+      "colour": "Pearl White",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-motor-4u",
+      "source": "https://in.lining.studio/products/halbertec-motor-4u",
+      "images": [
+        "assets/products/lining-halbertec-motor-white-1.webp",
+        "assets/products/lining-halbertec-motor-white-2.webp",
+        "assets/products/lining-halbertec-motor-white-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/template_01_e7710627fc_2318ad38-a802-49ba-8c02-99455ca418ef.jpg?v=1749899665",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/template_02_91da98694c_7114cad4-3682-4dc9-9756-c2a2b768ab08.jpg?v=1749899665",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/template_03_c63822a5da_d20aa9ae-223f-4f19-ba0f-2aad4290856d.jpg?v=1749899668"
+      ],
+      "description": "An approachable all-round racquet with an even balance and flexible carbon shaft. The Halbertec Motor offers a forgiving response for clears, controlled placement and everyday club games.",
+      "specs": {
+        "Balance": "Even balance",
+        "Shaft": "Flexible",
+        "Material": "Carbon fibre"
+      },
+      "summary": "An approachable all-round racquet with an even balance and flexible carbon shaft.",
+      "imageNote": "",
+      "priceCents": 11065,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-halbertec-motor-pink",
+      "brand": "Li-Ning",
+      "name": "Halbertec Motor Pink",
+      "dealerVnd": 920000,
+      "retailVnd": 1150000,
+      "series": "Halbertec",
+      "style": "Control",
+      "colour": "Pink",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-motor-4u",
+      "source": "https://in.lining.studio/products/halbertec-motor-4u",
+      "images": [
+        "assets/products/lining-halbertec-motor-pink-1.webp",
+        "assets/products/lining-halbertec-motor-pink-2.webp",
+        "assets/products/lining-halbertec-motor-pink-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/template_01_216d0f2f7d_8c8561b6-e56a-4c1b-b4eb-894b8b395bd1.jpg?v=1749899667",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/template_02_3ad4efe9f8_5406eaaa-6b0a-4877-bf72-4222b75a9b8c.jpg?v=1749899666",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/template_03_ab5a2b2a70_9d9adc0a-6d4a-4b49-9d1f-552f02348ed1.jpg?v=1749899667"
+      ],
+      "description": "A bright Neon Pink finish on Li-Ning’s accessible Halbertec Motor. Its even balance and flexible shaft support a comfortable mix of attack, defence and shuttle control.",
+      "specs": {
+        "Balance": "Even balance",
+        "Shaft": "Flexible",
+        "Material": "Carbon fibre"
+      },
+      "summary": "A bright Neon Pink finish on Li-Ning’s accessible Halbertec Motor.",
+      "imageNote": "",
+      "priceCents": 11065,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-halbertec-2000",
+      "brand": "Li-Ning",
+      "name": "Halbertec 2000",
+      "dealerVnd": 920000,
+      "retailVnd": 1150000,
+      "series": "Halbertec",
+      "style": "Control",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-2000-4u",
+      "source": "https://in.lining.studio/products/halbertec-2000-4u",
+      "images": [
+        "assets/products/lining-halbertec-2000-1.webp",
+        "assets/products/lining-halbertec-2000-2.webp",
+        "assets/products/lining-halbertec-2000-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_09f116775f_9c3137d2-38bc-40f1-8162-b373e61bbb51.jpg?v=1749898400",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/2_d712ed5f9a_c0f566d2-bcd8-466a-8bbf-daf4594d54a7.jpg?v=1749898402",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/3_b553856e41_52759d15-4e23-4a7c-95fc-c7f7e867f971.jpg?v=1749898400"
+      ],
+      "description": "A versatile entry to the Halbertec family with a slim 6.8 mm shaft and a frame designed to reduce vibration. A practical choice for developing controlled placement and a consistent swing.",
+      "specs": {
+        "Shaft diameter": "6.8 mm",
+        "Frame technology": "Stabilized Layout"
+      },
+      "colour": "Cold Sandalwood Black",
+      "summary": "A versatile entry to the Halbertec family with a slim 6.8 mm shaft and a frame designed to reduce vibration.",
+      "imageNote": "",
+      "priceCents": 11065,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-halbertec-4000",
+      "brand": "Li-Ning",
+      "name": "Halbertec 4000",
+      "dealerVnd": 1680000,
+      "retailVnd": 2100000,
+      "series": "Halbertec",
+      "style": "Control",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-4000-4u",
+      "source": "https://in.lining.studio/products/halbertec-4000-4u",
+      "images": [
+        "assets/products/lining-halbertec-4000-1.webp",
+        "assets/products/lining-halbertec-4000-2.webp",
+        "assets/products/lining-halbertec-4000-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Artboard_1_8a113800c0_71981307-466a-4e1a-aa96-0211ac96679e.jpg?v=1749900352",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Artboard_2_fc1c5d243d_1b9a0510-5d45-4807-8592-dd3b64c88618.jpg?v=1749900352",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Artboard_3_08c0a659fd_5050c5b6-0150-4fd4-bd81-cd6b9bf37fbb.jpg?v=1749900352"
+      ],
+      "description": "Built around a slim shaft and stable frame for quick preparation and repeatable placement. HDF shock absorption softens the impact feel, while TB Nano construction supports a responsive, durable frame.",
+      "specs": {
+        "Frame technology": "HDF shock absorption",
+        "Construction": "TB Nano"
+      },
+      "colour": "Pearl White / Neon Pink",
+      "summary": "Built around a slim shaft and stable frame for quick preparation and repeatable placement.",
+      "imageNote": "",
+      "priceCents": 15250,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-halbertec-5000",
+      "brand": "Li-Ning",
+      "name": "Halbertec 5000",
+      "dealerVnd": 2080000,
+      "retailVnd": 2600000,
+      "series": "Halbertec",
+      "style": "Control",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-5000-4u",
+      "source": "https://in.lining.studio/products/halbertec-5000-4u",
+      "images": [
+        "assets/products/lining-halbertec-5000-1.webp",
+        "assets/products/lining-halbertec-5000-2.webp",
+        "assets/products/lining-halbertec-5000-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_bc08357240_3db75fd9-8b11-4135-b83e-51f131512bfc.jpg?v=1749898374",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/2_57a5984f48_d92649a9-d7c9-433d-b775-7a1a946f4874.jpg?v=1749898374",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/3_9769a13e31_41b21b71-f509-4e68-81f5-919e72e6d584.jpg?v=1749898373"
+      ],
+      "description": "A control-focused carbon racquet pairing high-modulus graphite with a slim 6.8 mm shaft. HDF shock absorption helps the frame settle after contact for a smoother feel through longer rallies.",
+      "specs": {
+        "Shaft diameter": "6.8 mm",
+        "Material": "High-modulus graphite",
+        "Frame technology": "HDF shock absorption"
+      },
+      "colour": "Black / Purple",
+      "summary": "A control-focused carbon racquet pairing high-modulus graphite with a slim 6.8 mm shaft.",
+      "imageNote": "",
+      "priceCents": 17452,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-halbertec-6000",
+      "brand": "Li-Ning",
+      "name": "Halbertec 6000",
+      "dealerVnd": 2720000,
+      "retailVnd": 3400000,
+      "series": "Halbertec",
+      "style": "Control",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-6000-4u",
+      "source": "https://in.lining.studio/products/halbertec-6000-4u",
+      "images": [
+        "assets/products/lining-halbertec-6000-1.webp",
+        "assets/products/lining-halbertec-6000-2.webp",
+        "assets/products/lining-halbertec-6000-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_f823c0615f.jpg?v=1749899314",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/2_ae2632c1e9.jpg?v=1749899314",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/3_a576fdbf64.jpg?v=1749899314"
+      ],
+      "description": "The Halbertec 6000 combines Super Weave carbon construction with a streamlined shaft and stable frame. Designed for players who alternate positive attacking strokes with controlled placement.",
+      "specs": {
+        "Material": "Super Weave carbon fibre",
+        "Grip technology": "CNTRL Foam",
+        "Frame technology": "Power Beam System"
+      },
+      "colour": "Black / Turquoise",
+      "summary": "The Halbertec 6000 combines Super Weave carbon construction with a streamlined shaft and stable frame.",
+      "imageNote": "",
+      "priceCents": 20976,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-halbertec-7000",
+      "brand": "Li-Ning",
+      "name": "Halbertec 7000",
+      "dealerVnd": 3280000,
+      "retailVnd": 4100000,
+      "series": "Halbertec",
+      "style": "Control",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-7000-4u",
+      "source": "https://in.lining.studio/products/halbertec-7000-4u",
+      "images": [
+        "assets/products/lining-halbertec-7000-1.webp",
+        "assets/products/lining-halbertec-7000-2.webp",
+        "assets/products/lining-halbertec-7000-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_bb93bbb7a5_2b5ac5fb-0427-44e9-9589-7a41c433b9e8.jpg?v=1749898904",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/2_d435aa284b_71dbbe78-4e63-4b38-a879-cb2a7db46cce.jpg?v=1749898904",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/3_531438d395_df8a55fa-8ab5-440b-b990-759064383307.jpg?v=1749898904"
+      ],
+      "description": "A responsive Halbertec with a slim 6.8 mm shaft and HDF vibration control. The carbon frame supports fast preparation and a stable contact feel when moving between precise placement and attack.",
+      "specs": {
+        "Shaft diameter": "6.8 mm",
+        "Frame technology": "HDF shock absorption"
+      },
+      "colour": "Green / Orange",
+      "summary": "A responsive Halbertec with a slim 6.8 mm shaft and HDF vibration control.",
+      "imageNote": "",
+      "priceCents": 24059,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-halbertec-7000-gen-2",
+      "brand": "Li-Ning",
+      "name": "Halbertec 7000 Gen 2",
+      "dealerVnd": 3280000,
+      "retailVnd": 4100000,
+      "series": "Halbertec",
+      "style": "Control",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-7000-4u",
+      "source": "https://in.lining.studio/products/halbertec-7000-4u",
+      "images": [
+        "assets/products/lining-halbertec-7000-gen-2-1.webp",
+        "assets/products/lining-halbertec-7000-gen-2-2.webp",
+        "assets/products/lining-halbertec-7000-gen-2-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_4749bfb1-6fc5-4e25-9344-878eaf00953c.jpg?v=1771325695",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/2_52414bec-aeab-403f-a2a0-eda3684309e5.jpg?v=1771325695",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/3_7ef13749-6e7a-4efd-9e66-d318ed410269.jpg?v=1771325695"
+      ],
+      "description": "The updated Twilight Purple and Capri Breeze edition of the Halbertec 7000. Its slim-shaft, control-oriented platform gives confident feedback for players who build rallies with placement before attacking.",
+      "specs": {
+        "Shaft diameter": "6.8 mm",
+        "Edition": "Gen 2 / Twilight Purple"
+      },
+      "colour": "Capri Breeze / Twilight Purple",
+      "summary": "The updated Twilight Purple and Capri Breeze edition of the Halbertec 7000.",
+      "imageNote": "",
+      "priceCents": 24059,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-halbertec-8000",
+      "brand": "Li-Ning",
+      "name": "Halbertec 8000",
+      "dealerVnd": 3680000,
+      "retailVnd": 4600000,
+      "series": "Halbertec",
+      "style": "Control",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-8000-4u",
+      "source": "https://in.lining.studio/products/halbertec-8000-4u",
+      "images": [
+        "assets/products/lining-halbertec-8000-1.webp",
+        "assets/products/lining-halbertec-8000-2.webp",
+        "assets/products/lining-halbertec-8000-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/01_9b43c7875d_fd32f730-a7ce-40e1-9ae1-a9344a9df507.jpg?v=1749896645",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/02_29871751cb_fb26839d-8bbd-4e68-94cb-6fc4e9394283.jpg?v=1749896644",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/03_3100f6a20f_b36001b4-707e-4fe4-a0d9-1b6d2566efa8.jpg?v=1749896644"
+      ],
+      "description": "A premium all-round platform using T1100 carbon and a stabilized frame layout. The Halbertec 8000 balances controlled defence with positive attacking strokes, with shock absorption built into its construction.",
+      "specs": {
+        "Material": "T1100 carbon",
+        "Frame technology": "Stabilized Layout"
+      },
+      "colour": "Green / Pink",
+      "summary": "A premium all-round platform using T1100 carbon and a stabilized frame layout.",
+      "imageNote": "",
+      "priceCents": 26262,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-halbertec-9000-power",
+      "brand": "Li-Ning",
+      "name": "Halbertec 9000 Power",
+      "dealerVnd": 4680000,
+      "retailVnd": 5200000,
+      "series": "Halbertec",
+      "style": "Power",
+      "imageProductSource": "https://in.lining.studio/products/halbertec-9000-power-4u",
+      "source": "https://in.lining.studio/products/halbertec-9000-power-4u",
+      "images": [
+        "assets/products/lining-halbertec-9000-power-1.webp",
+        "assets/products/lining-halbertec-9000-power-2.webp",
+        "assets/products/lining-halbertec-9000-power-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_b727aad8-cdb5-4644-b39c-b9a4d11d0e68.jpg?v=1770023521",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/2_0f9659dc-c8b9-4774-9dcd-97ec39e8e283.png?v=1770023521",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/3_91726a34-cb9b-4e54-a99a-67b84c712b7a.png?v=1770023521"
+      ],
+      "description": "A balanced high-performance racquet for players who value clear feedback and deliberate shot-making. Its 6.6 mm high-modulus shaft and Dynamic Optimum Frame support smooth transitions from defence to attack.",
+      "specs": {
+        "Balance": "Even balance",
+        "Shaft diameter": "6.6 mm",
+        "Frame": "Dynamic Optimum Frame"
+      },
+      "colour": "White / Green / Purple",
+      "summary": "A balanced high-performance racquet for players who value clear feedback and deliberate shot-making.",
+      "imageNote": "",
+      "priceCents": 31768,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-bladex-spiral-4u-spring",
+      "brand": "Li-Ning",
+      "name": "Bladex Spiral 4U Spring",
+      "dealerVnd": 720000,
+      "retailVnd": 900000,
+      "series": "Bladex",
+      "style": "Speed",
+      "colour": "Spring",
+      "weight": "4U",
+      "imageProductSource": "https://www.spsport.com.au/products/li-ning-bladex-spiral-4u-badminton-racket",
+      "source": "https://www.spsport.com.au/products/li-ning-bladex-spiral-4u-badminton-racket",
+      "images": [
+        "assets/products/lining-bladex-spiral-4u-spring-1.webp",
+        "assets/products/lining-bladex-spiral-4u-spring-2.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0365/7390/5033/files/4fefbcd44633bcd5e4f4663eafb78c3c.png?v=1789006879",
+        "https://cdn.shopify.com/s/files/1/0365/7390/5033/files/b32cc2a6-0e73-4076-8723-0ff65b4e28da.jpg?v=1789006879"
+      ],
+      "description": "A quick-handling BladeX Spiral in the distinctive Sulphur Spring colourway. Its 4U carbon frame offers a manageable swing for developing players and fast-paced social badminton.",
+      "specs": {
+        "Weight class": "4U",
+        "Material": "Carbon fibre"
+      },
+      "summary": "A quick-handling BladeX Spiral in the distinctive Sulphur Spring colourway.",
+      "imageNote": "",
+      "priceCents": 9964,
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-bladex-spiral-4u-pink",
+      "brand": "Li-Ning",
+      "name": "Bladex Spiral 4U Pink",
+      "dealerVnd": 720000,
+      "retailVnd": 900000,
+      "series": "Bladex",
+      "style": "Speed",
+      "colour": "Pink",
+      "weight": "4U",
+      "imageProductSource": "https://in.lining.studio/products/bladex-spiral-4",
+      "source": "https://in.lining.studio/products/bladex-spiral-4",
+      "images": [
+        "assets/products/lining-bladex-spiral-4u-pink-1.webp",
+        "assets/products/lining-bladex-spiral-4u-pink-2.webp",
+        "assets/products/lining-bladex-spiral-4u-pink-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_558bf90d72_3db4c3d8-77ac-4321-a1dc-fe44e9d27bbc.jpg?v=1749898107",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/2_020c17363d_b6619ecf-5a13-461a-9573-497d8aff8811.jpg?v=1749898107",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/3_be6b854db4_16976a80-615d-40cd-9b9e-05f8a13b45b8.jpg?v=1749898107"
+      ],
+      "description": "A lively carbon racquet for quick exchanges and controlled shot placement. The 4U BladeX Spiral combines a high-carbon build with Li-Ning’s Sonic Boom frame system in a vibrant pink finish.",
+      "specs": {
+        "Weight class": "4U",
+        "Material": "Carbon fibre",
+        "Frame technology": "Sonic Boom"
+      },
+      "summary": "A lively carbon racquet for quick exchanges and controlled shot placement.",
+      "imageNote": "",
+      "priceCents": 9964,
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-bladex-spiral-5u-pink",
+      "brand": "Li-Ning",
+      "name": "Bladex Spiral 5U Pink",
+      "dealerVnd": 720000,
+      "retailVnd": 900000,
+      "series": "Bladex",
+      "style": "Speed",
+      "colour": "Pink",
+      "weight": "5U",
+      "imageProductSource": "https://in.lining.studio/products/bladex-spiral-5",
+      "source": "https://in.lining.studio/products/bladex-spiral-5",
+      "images": [
+        "assets/products/lining-bladex-spiral-5u-pink-1.webp",
+        "assets/products/lining-bladex-spiral-5u-pink-2.webp",
+        "assets/products/lining-bladex-spiral-5u-pink-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_558bf90d72.jpg?v=1749898091",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/2_020c17363d.jpg?v=1749898091",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/3_be6b854db4.jpg?v=1749898090"
+      ],
+      "description": "The lighter 5U version of BladeX Spiral makes rapid preparation and short exchanges feel easy. Its carbon construction and Sonic Boom system suit players who prioritise manoeuvrability and a responsive touch.",
+      "specs": {
+        "Weight class": "5U",
+        "Material": "Carbon fibre",
+        "Frame technology": "Sonic Boom"
+      },
+      "summary": "The lighter 5U version of BladeX Spiral makes rapid preparation and short exchanges feel easy.",
+      "imageNote": "",
+      "priceCents": 9964,
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-bladex-spiral-4u-neon",
+      "brand": "Li-Ning",
+      "name": "Bladex Spiral 4U Neon",
+      "dealerVnd": 720000,
+      "retailVnd": 900000,
+      "series": "Bladex",
+      "style": "Speed",
+      "colour": "Neon",
+      "weight": "4U",
+      "imageProductSource": "https://in.lining.studio/products/bladex-spiral-4",
+      "source": "https://in.lining.studio/products/bladex-spiral-4",
+      "images": [
+        "assets/products/lining-bladex-spiral-4u-neon-1.webp",
+        "assets/products/lining-bladex-spiral-4u-neon-2.webp",
+        "assets/products/lining-bladex-spiral-4u-neon-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_cdbfdd43f6_832dae60-49de-4c18-9511-23f1375f5401.png?v=1749898108",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/2_9d3138183e_fe9e7ccd-2ab2-4fac-a310-fad04b1b4572.png?v=1749898108",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/3_42e0f08f70_e91b8c75-c50e-4019-9d04-4c6428d1250c.png?v=1749898108"
+      ],
+      "description": "Stand out in Neon Brilliant Yellow with a quick-handling 4U carbon frame. BladeX Spiral is an accessible option for developing sharp reactions, smooth swings and controlled placement.",
+      "specs": {
+        "Weight class": "4U",
+        "Material": "Carbon fibre",
+        "Frame technology": "Sonic Boom"
+      },
+      "summary": "Stand out in Neon Brilliant Yellow with a quick-handling 4U carbon frame.",
+      "imageNote": "",
+      "priceCents": 9964,
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-bladex-73-light-flower-blue",
+      "brand": "Li-Ning",
+      "name": "Bladex 73 Light Flower Blue",
+      "dealerVnd": 1760000,
+      "retailVnd": 2200000,
+      "series": "Bladex",
+      "style": "Speed",
+      "colour": "Flower Blue",
+      "weight": "6U",
+      "imageProductSource": "https://in.lining.studio/products/bladex-73",
+      "source": "https://in.lining.studio/products/bladex-73",
+      "images": [
+        "assets/products/lining-bladex-73-light-flower-blue-1.webp",
+        "assets/products/lining-bladex-73-light-flower-blue-2.webp",
+        "assets/products/lining-bladex-73-light-flower-blue-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/01_e5d127f4c2.jpg?v=1749896199",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/02_06d2fbd2c8.jpg?v=1749896199",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/03_8eccd14343.jpg?v=1749896200"
+      ],
+      "description": "An ultra-light 73 g racquet for quick reactions and easy manoeuvring. The soft 7 mm shaft, TB Nano construction and Sonic Boom system make this Flower Blue BladeX a speed-focused option for fast rallies.",
+      "specs": {
+        "Weight class": "6U / 73 g",
+        "Shaft": "Soft flexible",
+        "Shaft diameter": "7 mm"
+      },
+      "summary": "An ultra-light 73 g racquet for quick reactions and easy manoeuvring.",
+      "imageNote": "",
+      "priceCents": 15690,
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-bladex-73-light-smoke-pink",
+      "brand": "Li-Ning",
+      "name": "Bladex 73 Light Smoke Pink",
+      "dealerVnd": 1720000,
+      "retailVnd": 2150000,
+      "series": "Bladex",
+      "style": "Speed",
+      "colour": "Smoke Pink",
+      "weight": "6U",
+      "imageProductSource": "https://in.lining.studio/products/bladex-73",
+      "source": "https://in.lining.studio/products/bladex-73",
+      "images": [
+        "assets/products/lining-bladex-73-light-smoke-pink-1.webp",
+        "assets/products/lining-bladex-73-light-smoke-pink-2.webp",
+        "assets/products/lining-bladex-73-light-smoke-pink-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/01_356a722a4d.jpg?v=1749896199",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/02_ffed0f61ae.jpg?v=1749896199",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/03_031279c3b5.jpg?v=1749896199"
+      ],
+      "description": "A lightweight defensive-minded BladeX in Light Smoke Pink. The 73 g frame and flexible shaft support easy preparation, quick counter-strokes and a comfortable swing through extended rallies.",
+      "specs": {
+        "Weight class": "6U / 73 g",
+        "Shaft": "Soft flexible",
+        "Shaft diameter": "7 mm"
+      },
+      "summary": "A lightweight defensive-minded BladeX in Light Smoke Pink.",
+      "imageNote": "",
+      "priceCents": 15470,
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-bladex-200-blue",
+      "brand": "Li-Ning",
+      "name": "Bladex 200 Blue",
+      "dealerVnd": 1000000,
+      "retailVnd": 1250000,
+      "series": "Bladex",
+      "style": "Speed",
+      "colour": "Blue",
+      "weight": "4U",
+      "imageProductSource": "https://in.lining.studio/products/bladex-200-4u",
+      "source": "https://in.lining.studio/products/bladex-200-4u",
+      "images": [
+        "assets/products/lining-bladex-200-blue-1.webp",
+        "assets/products/lining-bladex-200-blue-2.webp",
+        "assets/products/lining-bladex-200-blue-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_01_673c643dc3_9c6cba99-2e35-48fa-b41d-5c6be621fbb0.jpg?v=1749895319",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_02_a5a8de832d_193ff7b6-f199-4aaf-9ea8-f2cba4386dd6.jpg?v=1749895319",
+        "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_03_d13e63bc90_58171964-5fe5-4f7c-97f9-7b7342c26e5f.jpg?v=1749895317"
+      ],
+      "description": "A speed-oriented carbon frame built for smooth swings and refined racquet movement. The 4U BladeX 200 uses Sonic Boom frame technology for players who enjoy fast exchanges and confident control.",
+      "specs": {
+        "Weight class": "4U",
+        "Material": "Carbon fibre",
+        "Frame technology": "Sonic Boom"
+      },
+      "summary": "A speed-oriented carbon frame built for smooth swings and refined racquet movement.",
+      "imageNote": "",
+      "priceCents": 11506,
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-turbo-01d",
+      "brand": "Li-Ning",
+      "name": "Turbo Charging 01D",
+      "dealerVnd": 1080000,
+      "retailVnd": 1350000,
+      "series": "Turbo Charging",
+      "style": "All-round",
+      "imageProductSource": "https://liningbadminton.vn/products/vot-cau-long-turbochaging-01d",
+      "source": "https://liningbadminton.vn/products/vot-cau-long-turbochaging-01d",
+      "images": [
+        "assets/products/lining-turbo-01d-1.webp",
+        "assets/products/lining-turbo-01d-2.webp",
+        "assets/products/lining-turbo-01d-3.webp"
+      ],
+      "imageSources": [
+        "https://cdn.hstatic.net/products/200000099191/9a7dbeb20f4f4089adae11cd2a8b5c_master_d758772347134da59478de36342ad39f_e8b5212b146446f085cbdf8e1513419f.jpg",
+        "https://cdn.hstatic.net/products/200000099191/e962_7e05faeac3f94604b40c04bde2448f92_5d6a6eb2efe64aa5914270e92cc0b3cf_2bdbade4c20745a597e41268e734c59c.jpg",
+        "https://cdn.hstatic.net/products/200000099191/9b07_00e08498beaf450f81d6511c8d2727dc_50ff779ca1fb40e7820c495083fbd59f_874734511ee44c9fa842dac22c5fbe2b.jpg"
+      ],
+      "description": "An accessible Turbo Charging racquet for players who combine fast attack with reliable defence. Its carbon construction, Dynamic Optimum Frame and Aerotec Beam system support smooth preparation and stable shuttle contact.",
+      "specs": {
+        "Material": "Carbon fibre",
+        "Frame": "Dynamic Optimum Frame",
+        "Frame technology": "Aerotec Beam System"
+      },
+      "colour": "Black / Red",
+      "summary": "An accessible Turbo Charging racquet for players who combine fast attack with reliable defence.",
+      "imageNote": "",
+      "priceCents": 11946,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-turbo-20d",
+      "brand": "Li-Ning",
+      "name": "Turbo Charging 20D",
+      "dealerVnd": 1120000,
+      "retailVnd": 1400000,
+      "series": "Turbo Charging",
+      "style": "All-round",
+      "imageProductSource": "https://liningbadminton.vn/products/turbo-charging-20d",
+      "source": "https://liningbadminton.vn/products/turbo-charging-20d",
+      "images": [
+        "assets/products/lining-turbo-20d-1.webp",
+        "assets/products/lining-turbo-20d-2.webp",
+        "assets/products/lining-turbo-20d-3.webp"
+      ],
+      "imageSources": [
+        "https://product.hstatic.net/200000099191/product/aypp024-1-11560392249_d8230e1682934b328b4b061d6d5557e6.jpg",
+        "https://product.hstatic.net/200000099191/product/aypp024-1-21560392249_5acdb054ce0544bb90202241766698f1.jpg",
+        "https://product.hstatic.net/200000099191/product/aypp024-1-31560392249_e28dd2843a024d30a980a2445cf413f9.jpg"
+      ],
+      "description": "A fast-swinging 4U racquet built around the Turbo Charging trapezoidal frame. Its carbon construction and Drive-series design suit players who change quickly between attacking strokes and defensive returns.",
+      "specs": {
+        "Weight class": "4U",
+        "Material": "Carbon fibre",
+        "Balance point": "312 mm (manufacturer regional specification)"
+      },
+      "colour": "Black / Green",
+      "summary": "A fast-swinging 4U racquet built around the Turbo Charging trapezoidal frame.",
+      "imageNote": "",
+      "priceCents": 12167,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-lightning-2000-blue",
+      "brand": "Li-Ning",
+      "name": "Lightning 2000 Blue",
+      "dealerVnd": 960000,
+      "retailVnd": 1200000,
+      "series": "Lightning",
+      "style": "All-round",
+      "colour": "Blue",
+      "imageProductSource": "https://trangnguyen.vn/vot-cau-long-lightning-2000",
+      "source": "https://trangnguyen.vn/vot-cau-long-lightning-2000",
+      "images": [
+        "assets/products/lining-lightning-2000-blue-1.webp",
+        "assets/products/lining-lightning-2000-blue-2.webp",
+        "assets/products/lining-lightning-2000-blue-3.webp"
+      ],
+      "imageSources": [
+        "https://bizweb.dktcdn.net/100/365/443/products/vot-cau-long-lining-lightning-2000-blue-chinh-hang-2.webp?v=1703646598993",
+        "https://bizweb.dktcdn.net/100/365/443/products/vot-cau-long-lining-lightning-2000-blue-chinh-hang-1.webp?v=1703646962657",
+        "https://bizweb.dktcdn.net/100/365/443/products/vot-cau-long-lining-lightning-2000-blue-chinh-hang-2-bb9c52cb-391c-4795-bdca-4afaa4154121.webp?v=1703646664800"
+      ],
+      "description": "A manageable carbon racquet for social games and developing all-round technique. Lightning 2000 Blue pairs a slim shaft with a versatile frame for a comfortable balance of clears, defence and placement.",
+      "specs": {
+        "Weight class": "4U",
+        "Material": "Carbon fibre"
+      },
+      "summary": "A manageable carbon racquet for social games and developing all-round technique.",
+      "imageNote": "",
+      "priceCents": 11286,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-black-iron-fire-red",
+      "brand": "Li-Ning",
+      "name": "Black Iron Fire Red",
+      "dealerVnd": 880000,
+      "retailVnd": 1100000,
+      "series": "Black Iron",
+      "style": "All-round",
+      "colour": "Fire Red",
+      "weight": "4U",
+      "imageProductSource": "https://li-ningsports.co.uk/products/li-ning-blackiron-racket",
+      "source": "https://li-ningsports.co.uk/products/li-ning-blackiron-racket",
+      "images": [
+        "assets/products/lining-black-iron-fire-red-1.webp",
+        "assets/products/lining-black-iron-fire-red-2.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0975/5210/5818/files/AYPT467-4.jpg?v=1764698188",
+        "https://cdn.shopify.com/s/files/1/0975/5210/5818/files/AYPT467-41.jpg?v=1764698189"
+      ],
+      "description": "An accessible 4U carbon racquet in Fire Red, designed for dependable all-round play. Black Iron suits developing players looking for a manageable frame for club sessions and social games.",
+      "specs": {
+        "Weight class": "4U",
+        "Material": "Carbon fibre"
+      },
+      "summary": "An accessible 4U carbon racquet in Fire Red, designed for dependable all-round play.",
+      "imageNote": "",
+      "priceCents": 10845,
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-black-iron-new",
+      "brand": "Li-Ning",
+      "name": "Black Iron New",
+      "dealerVnd": 856000,
+      "retailVnd": 1070000,
+      "series": "Black Iron",
+      "style": "All-round",
+      "weight": "4U",
+      "imageProductSource": "https://li-ningsports.co.uk/products/li-ning-blackiron-racket",
+      "source": "https://li-ningsports.co.uk/products/li-ning-blackiron-racket",
+      "images": [
+        "assets/products/lining-black-iron-new-1.webp",
+        "assets/products/lining-black-iron-new-2.webp"
+      ],
+      "imageSources": [
+        "https://cdn.shopify.com/s/files/1/0975/5210/5818/files/AYPT471-4.jpg?v=1764698189",
+        "https://cdn.shopify.com/s/files/1/0975/5210/5818/files/AYPT471-41.webp?v=1764698188"
+      ],
+      "description": "An accessible 4U carbon racquet in New Pale Gold, designed for dependable all-round play. Black Iron suits developing players looking for a manageable frame for club sessions and social games.",
+      "specs": {
+        "Weight class": "4U",
+        "Material": "Carbon fibre"
+      },
+      "colour": "New Pale Gold",
+      "summary": "An accessible 4U carbon racquet in New Pale Gold, designed for dependable all-round play.",
+      "imageNote": "",
+      "priceCents": 10713,
+      "flex": "Confirm on enquiry"
+    },
+    {
+      "slug": "lining-80tf",
+      "brand": "Li-Ning",
+      "name": "80TF",
+      "dealerVnd": 1320000,
+      "retailVnd": 1650000,
+      "series": "80TF",
+      "style": "All-round",
+      "imageProductSource": "https://fbshop.vn/p/vot-cau-long-lining-3d-breakfree-80tf/",
+      "source": "https://fbshop.vn/p/vot-cau-long-lining-3d-breakfree-80tf/",
+      "images": [
+        "assets/products/lining-80tf-1.webp",
+        "assets/products/lining-80tf-2.webp",
+        "assets/products/lining-80tf-3.webp"
+      ],
+      "imageSources": [
+        "https://fbshop.vn/wp-content/uploads/2026/04/lining-3d-breakfree-80tf-01b.jpg",
+        "https://fbshop.vn/wp-content/uploads/2026/04/lining-3d-breakfree-80tf-14.jpg",
+        "https://fbshop.vn/wp-content/uploads/2026/04/lining-3d-breakfree-80tf-13.jpg"
+      ],
+      "description": "The 3D Break-Free 80TF is a versatile carbon racquet with a shaped aerodynamic frame and a medium-flex response. A slightly head-weighted feel adds substance to attacking shots while remaining suitable for all-round play.",
+      "specs": {
+        "Weight class": "4U",
+        "Material": "Carbon fibre",
+        "Shaft": "Medium flex",
+        "Balance point": "296 mm"
+      },
+      "colour": "White / Red / Black",
+      "summary": "The 3D Break-Free 80TF is a versatile carbon racquet with a shaped aerodynamic frame and a medium-flex response.",
+      "imageNote": "",
+      "priceCents": 13268,
+      "weight": "Confirm weight and grip on enquiry",
+      "flex": "Confirm on enquiry"
+    }
+  ]
+}
